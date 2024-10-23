@@ -82,9 +82,15 @@ export default function Login() {
               </div>
 
               {/* Login Now link */}
-              <div className="login-btn mt-4 text-center">
+              <div className="login-btn mt-3 text-center">
               Create an account ? <a href="#"> Sign Up</a>
               </div>
+              <hr />
+                <div className="google-login-btn text-center">
+                  <a href="#">
+                    <i class="fa-brands fa-google me-2"></i> Login with Google
+                  </a>
+                </div>
 
 
 
