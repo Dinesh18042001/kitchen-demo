@@ -29,6 +29,11 @@ html {
   overflow-x: hidden !important;
 }
 
+.offcanvas-half {
+  width: 70%; 
+  max-width: 70%; 
+}
+
 /* navbar section start */
 
 .header-scrolled {
@@ -197,3 +202,4 @@ html {
 .footernav-section .footer-nav-box-main .footer-nav-box img{
   width: 30px;
 }
+

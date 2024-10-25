@@ -3,7 +3,7 @@ import React from 'react'
 export default function MobileOffcanvas() {
   return (
    <>
-      <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+      <div className="offcanvas offcanvas-end offcanvas-half" tabIndex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
