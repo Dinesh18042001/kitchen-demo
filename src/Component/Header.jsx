@@ -1,10 +1,9 @@
-
-import React, { useEffect } from 'react';
-import Login from './Modal/Login';
-import SignUp from './Modal/SignUp';
+import React, { useEffect } from "react";
+import Login from "./Modal/Login";
+import SignUp from "./Modal/SignUp";
+import MobileOffcanvas from "./MobileOffcanvas";
 
 export default function Header() {
-
   useEffect(() => {
     const handleScroll = () => {
       const nav = document.querySelector(".navbar");
@@ -25,7 +24,9 @@ export default function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand" href="#">Navbar</a>
+          <a className="navbar-brand" href="#">
+            Navbar
+          </a>
           <a
             data-bs-toggle="offcanvas"
             href="#offcanvasMenu"
@@ -52,16 +53,20 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 gap-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#">
+                  About
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link" href="#">
+                  Contact
+                </a>
               </li>
-
-              
             </ul>
 
             {/* Login and SignUp */}
@@ -90,51 +95,10 @@ export default function Header() {
       </nav>
 
       {/* Offcanvas Menu */}
-      <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
-          <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div className="offcanvas-body">
-          <ul className="nav flex-column">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
-          {/* Login and Sign Up Buttons */}
-          <div className="d-flex flex-column mt-4">
-            <a
-              className="btn btn-primary mb-2"
-              href="#"
-              data-bs-toggle="modal"
-              data-bs-target="#loginModal"
-              aria-label="Open Login Modal"
-            >
-              Login
-            </a>
-            <a
-              className="btn btn-secondary"
-              href="#"
-              data-bs-toggle="modal"
-              data-bs-target="#signupModal"
-              aria-label="Open SignUp Modal"
-            >
-              Sign Up
-            </a>
-          </div>
-        </div>
-      </div>
+      <MobileOffcanvas />
 
       <Login />
       <SignUp />
     </>
   );
 }
-
