@@ -7,10 +7,10 @@ export default function FooterNav() {
       <div className="footernav-section">
         <div className="container footer-nav-box-main d-flex justify-content-between align-items-center">
           <div className="footer-nav-box">
-            <a href="#"><img src="./assets/FooterNav/icon1.png" alt="Home icon" /></a>
+            <a href="#"><img src="./assets/FooterNav/home.png" alt="Home icon" /></a>
           </div>
           <div className="footer-nav-box">
-            <a href="#"><img src="./assets/FooterNav/application.png" alt="Application icon" /></a>
+            <a href="#"><img src="./assets/FooterNav/app.png" alt="Application icon" /></a>
           </div>
           <div className="footer-nav-box">
             <a href="#"><img src="./assets/FooterNav/telephone.png" alt="Contact icon" /></a>
@@ -25,7 +25,7 @@ export default function FooterNav() {
               aria-label="Open mobile menu"
               className="d-lg-none"
             >
-              <img src="./assets/FooterNav/burger-bar.png" alt="Menu icon" />
+              <img src="./assets/FooterNav/hamburger.png" alt="Menu icon" />
             </a>
           </div>
         </div>

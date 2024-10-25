@@ -29,7 +29,7 @@ export default function Banner() {
   
 
   return (
-    <div className="banner-section">
+    <div className="banner-section mt-4">
       <div className="container">
         <div className="row">
           <div className="col-lg-4">

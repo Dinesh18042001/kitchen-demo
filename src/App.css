@@ -34,6 +34,12 @@ html {
   max-width: 70%; 
 }
 
+.profile-manu{
+border: 1px solid #fff;
+padding: 10px;
+border-radius: 50%;
+}
+
 /* navbar section start */
 
 .header-scrolled {
@@ -60,6 +66,15 @@ html {
   border-radius: 5px; 
   text-decoration: none; 
   transition: background-color 0.3s ease; 
+}
+.navbar{
+  background: var(--primary-color) !important;
+}
+
+.navbar .nav-link{
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 /* sign-up form start */
@@ -146,29 +161,29 @@ html {
 
 /* Offcanvas Menu Styles */
 .offcanvas {
-  background-color: #f8f9fa; /* Light background color */
-  padding: 20px; /* Add padding */
+  background-color: #f8f9fa; 
+  padding: 20px; 
 }
 
 .offcanvas-header {
-  border-bottom: 1px solid #dee2e6; /* Add a bottom border */
+  border-bottom: 1px solid #dee2e6; 
 }
 
 .offcanvas-title {
-  font-weight: bold; /* Bold title */
-  font-size: 1.25rem; /* Adjust font size */
+  font-weight: bold;
+  font-size: 1.25rem; 
 }
 
 .nav-link {
-  color: #333; /* Link color */
+  color: #333; 
 }
 
 .nav-link:hover {
-  color: #007bff; /* Change color on hover */
+  color: var(--primary-color); 
 }
 
 .btn-close {
-  color: #333; /* Close button color */
+  color: #333; 
 }
 
 
@@ -182,7 +197,7 @@ html {
 }
 /* banner-section end */
 
-
+/* .footernav-section start */
 .footernav-section {
   position: fixed;
   bottom: 0;
@@ -191,6 +206,7 @@ html {
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15); 
   padding: 16px 20px; 
   z-index: 1000; 
+  background: var(--primary-color);
 }
 
 @media(min-width:992px){
@@ -202,4 +218,6 @@ html {
 .footernav-section .footer-nav-box-main .footer-nav-box img{
   width: 30px;
 }
+
+/* .footernav-section end */
 

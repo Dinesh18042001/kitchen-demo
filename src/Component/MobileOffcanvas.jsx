@@ -22,7 +22,7 @@ export default function MobileOffcanvas() {
           </ul>
 
           {/* Login and Sign Up Buttons */}
-          <div className="d-flex flex-column mt-4">
+          <div className="d-flex flex-column mt-5">
             <a
               className="btn btn-primary mb-2"
               href="#"
