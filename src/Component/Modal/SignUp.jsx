@@ -45,6 +45,15 @@ export default function SignUp() {
                   />
                 </div>
 
+                <div className="mb-3">
+                  <input
+                    type="email"
+                    className="form-control custom-input"
+                    id="signupEmail"
+                    placeholder="Enter your Email"
+                  />
+                </div>
+
                 {/* Password field with eye icon */}
                 <div className="mb-3 position-relative">
                   <input
