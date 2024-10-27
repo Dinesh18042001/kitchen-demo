@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Header from "./Component/Header"
 import Banner from './Component/Banner';
 import FooterNav from './Component/FooterNav/FooterNav';
+import Subscription from './Component/Subscription/Subscription';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
     <Header/>
     <Banner/>
+    <Subscription/>
     <FooterNav/>
     </>
   )
